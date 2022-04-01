@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #acbfc6;
+}
+
+.ev{
+    margin-top: -5%;
+
+}
+
+.form1 {
+    position: absolute;
+    background-color: white;
+    height: 60%;
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 22%;    
+    box-shadow:  0 35px 20px 0 rgba(15, 15, 15, 0.678);/* получившаяся тень */
+}
+
+.form2 {
+    position: absolute;
+    background-color: #0c1e80;
+    height: 10%;
+    width: 60%;
+    margin-top: 40%;
+    margin-left: 22%;
+    box-shadow:  0 7px 20px 0 rgba(15, 15, 15, 0.678);/* получившаяся тень */
+}
+
+.top{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 8%;
+    width: 60%;
+    margin-top: 8.5%;
+    margin-left: 22%;
+    box-shadow:  0 2px 20px 2px rgba(15, 15, 15, 0.678);/* получившаяся тень */
+
+}
+
+.under{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 8%;
+    width: 60%;
+    margin-top: 37%;
+    margin-left: 22%;
+}
+
+.img1 {
+    position: absolute;
+    height: 75%;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+
+.img2 {
+    position: absolute;
+    height: 16%;
+    width: 8%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.line {
+    position: absolute;
+    height: 67%;
+    border-left: 1px solid gainsboro;
+    margin-top: 10%;
+    margin-left: 50%;
+}
+
+.p1 {
+    margin-top: 5%;
+    margin-left: 57%;
+    font-size: 13px;
+}
+
+.facebook {
+    transition: all 0.4s ease-in-out;
+    background-color: #2a538b;
+    border-radius: 100%;
+    position: absolute;
+    height: 8%;
+    width: 3.7%;
+    margin-top: -3%;
+    margin-left: 67.5%;
+}
+
+.facebook>i {
+    color: white;
+    margin-top: 30%;
+    margin-left: 37%;
+}
+
+.facebook:hover {
+    transition: all 0.4s ease-in-out;
+    background-color: #3468b1;
+    border-radius: 100%;
+    position: absolute;
+    height: 10%;
+    width: 5%;
+    margin-top: -3.2%;
+    margin-left: 67%;
+}
+
+.twitter {
+    transition: all 0.4s ease-in-out;
+    background-color: #03a0e7;
+    border-radius: 100%;
+    position: absolute;
+    height: 8%;
+    width: 3.7%;
+    margin-top: -3%;
+    margin-left: 73%;
+}
+
+.twitter>i {
+    color: white;
+    margin-top: 30%;
+    margin-left: 28%;
+}
+
+.twitter:hover {
+    transition: all 0.4s ease-in-out;
+    background-color: rgb(54, 132, 240);
+    border-radius: 100%;
+    position: absolute;
+    height: 10%;
+    width: 5%;
+    margin-top: -3.2%;
+    margin-left: 72.5%;
+}
+
+.in {
+    transition: all 0.4s ease-in-out;
+    background-color: #00589f;
+    border-radius: 100%;
+    position: absolute;
+    height: 8%;
+    width: 3.7%;
+    margin-top: -3%;
+    margin-left: 78.5%;
+}
+
+.in>i {
+    color: white;
+    margin-top: 30%;
+    margin-left: 32%;
+}
+
+.in:hover {
+    transition: all 0.4s ease-in-out;
+    background-color: #016cc4;
+    border-radius: 100%;
+    position: absolute;
+    height: 10%;
+    width: 5%;
+    margin-top: -3.2%;
+    margin-left: 78%;
+}
+
+.line2 {
+    position: absolute;
+    width: 38.2%;
+    border-top: 1px solid gainsboro;
+    margin-top: 5%;
+    margin-left: 57%;
+}
+
+.pb {
+    margin-top: -2.5%;
+    margin-left: 45%;
+    background-color: white;
+    height: 5%;
+    width: 10%;
+}
+
+.pb>p {
+    margin-left: 25%;
+    font-size: 13px;
+}
+
+input {
+    width: 36%;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 3px;
+    background-color: white;
+}
+
+.inpDiv1 input {
+    background: white;
+    padding: 10px;
+    border: 1px solid rgb(211, 211, 211);
+    margin-left: 57%;
+    margin-top: 12%;
+}
+
+.inpDiv2 input {
+    background: white;
+    padding: 10px;
+    border: 1px solid rgb(211, 211, 211);
+    margin-left: 57%;
+    margin-top: 3%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.label1 {
+    font-size: 13px;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -38%;
+    font-weight: 700;
+}
+
+.label2 {
+    font-size: 13px;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: -38%;
+    font-weight: 700;
+}
+
+#checkbox {
+    margin-left: 39.8%;
+    margin-top: 0.7%;
+    position: absolute;
+}
+
+.checkbox_label {
+    position: absolute;
+    margin-left: 59%;
+    margin-top: 0.5%;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.fp {
+    position: absolute;
+    margin-left: 81.5%;
+    margin-top: -1.7%;
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    width: 12%;
+    height: 4vh;
+    margin-left: 57%;
+    margin-top: 3%;
+    background-color: #0c1e80;
+    border: none;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(0, 89, 184);
+    transition: all 0.4s ease-in-out;
+}
+
+.pdo {
+    margin-left: 57%;
+    margin-top: 1.5%;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.form2>p{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.774);
+    margin-top: 3%;
+    margin-left: 5%;
+    font-weight: 700;
+    font-size: 13px;
+
+}
+
+.fa-facebook-f{
+    position: absolute;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    margin-top: 3%;
+    margin-left: 83%;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.fa-facebook-f:hover{
+    transition: all 0.4s ease-in-out;
+    color: rgba(255, 255, 255, 0.800);
+    margin-top: 2.8%;
+    margin-left: 83%;
+    font-size: 20px;
+}
+
+.fa-google-plus-g{
+    position: absolute;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    margin-top: 3%;
+    margin-left: 86%;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.fa-google-plus-g:hover{
+    transition: all 0.4s ease-in-out;
+    color: rgba(255, 255, 255, 0.800);
+    margin-top: 2.8%;
+    margin-left: 86%;
+    font-size: 20px;
+}
+
+.fa-linkedin-in{
+    position: absolute;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    margin-top: 3%;
+    margin-left: 90%;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.fa-linkedin-in:hover{
+    transition: all 0.4s ease-in-out;
+    color: rgba(255, 255, 255, 0.800);
+    margin-top: 2.8%;
+    margin-left: 90%;
+    font-size: 20px;
+}
+
+.fa-twitter{
+    position: absolute;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    margin-top: 3%;
+    margin-left: 94%;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.fa-twitter:hover{
+    transition: all 0.4s ease-in-out;
+    color: rgba(255, 255, 255, 0.800);
+    margin-top: 2.8%;
+    margin-left: 94%;
+    font-size: 20px;
+}
